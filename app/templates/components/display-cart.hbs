@@ -1,6 +1,6 @@
 {{#each shoppingCart.items as |item|}}
 <ul class="list-unstyled">
-<li class="text-center">{{item.name}} --- {{item.cost}}</li>
+<li><img class="cart-icon" src={{item.image}} alt={{item.name}}>  {{item.name}} - {{item.cost}}</li>
 </ul>
 {{/each}}
 <p class="text-center"> Total: {{shoppingCart.total}}</p>

@@ -10,31 +10,31 @@
     "cost" : 2.2,
     "description": "this is the pruoduct",
     "other": "available",
-    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+    "image" : "https://nuts.com/images/auto/801x534/assets/0efa260340dac6fe.jpg"
   }, {
     "name" : "nuts3",
     "cost" : 3.3,
     "description": "this is the pruoduct",
     "other": "available",
-    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+    "image" : "https://nuts.com/images/auto/228x152fill/assets/90bf9cc69d59c9db.png"
   }, {
     "name" : "nuts4",
     "cost" : 4.4,
     "description": "this is the pruoduct",
     "other": "available",
-    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+    "image" : "http://lifecdn.dailyburn.com/life/wp-content/uploads/2015/03/The-Nut-That-Could-Help-You-Live-Longer_2.jpg"
   }, {
     "name" : "nuts5",
     "cost" : 5.5,
     "description": "this is the pruoduct",
     "other": "available",
-    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+    "image" : "http://www.healthline.com/hlcmsresource/images/slideshow/nut-allergy-symptoms/285x285_Nut_Allergy_Symptoms_2.jpg"
   }, {
     "name" : "nuts6",
     "cost" : 6.6,
     "description": "this is the pruoduct",
     "other": "available",
-    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+    "image" : "https://nuts.com/images/auto/228x152fill/assets/c02579c937172325.jpg"
   } ],
   "feedbacks": [{
     "author": "Andrea",
