@@ -1,0 +1,27 @@
+img {
+  height : 250px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-tile{
+  height: 300px;
+  border-color: black;
+  border-width: 2px;
+}
+
+.product-image{
+  max-width: 100%;
+  height: auto;
+}

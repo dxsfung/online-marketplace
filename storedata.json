@@ -1,0 +1,52 @@
+{
+  "products" : [ {
+    "name" : "nuts1",
+    "cost" : 1.1,
+    "description": "this is the pruoduct",
+    "other": "available",
+    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+  }, {
+    "name" : "nuts2",
+    "cost" : 2.2,
+    "description": "this is the pruoduct",
+    "other": "available",
+    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+  }, {
+    "name" : "nuts3",
+    "cost" : 3.3,
+    "description": "this is the pruoduct",
+    "other": "available",
+    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+  }, {
+    "name" : "nuts4",
+    "cost" : 4.4,
+    "description": "this is the pruoduct",
+    "other": "available",
+    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+  }, {
+    "name" : "nuts5",
+    "cost" : 5.5,
+    "description": "this is the pruoduct",
+    "other": "available",
+    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+  }, {
+    "name" : "nuts6",
+    "cost" : 6.6,
+    "description": "this is the pruoduct",
+    "other": "available",
+    "image" : "http://harvesttohomefruits.com/wp-content/uploads/2016/05/Nuts.jpg"
+  } ],
+  "feedbacks": [{
+    "author": "Andrea",
+    "ratingItem": 4,
+    "ratingStore": 5,
+    "content": "Did not fall down.",
+    "date": "20 Mar 2017"
+  }, {
+    "author": "Andrea",
+    "ratingItem": 4,
+    "ratingStore": 5,
+    "content": "Did not fall down.",
+    "date": "20 Mar 2017"
+  }]
+}
