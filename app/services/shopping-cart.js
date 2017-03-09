@@ -5,8 +5,10 @@ export default Ember.Service.extend({
   total: 0,
   count: 0,
   add(item) {
-    var total = this.get('total');
-    this.set('total', total+item.get('cost'));
-    console.log(total);    this.get('items').pushObject(item);
+    var n = this.get('total');
+    this.set('total', n + item.get('cost'));
+    console.log(n, item.get('cost'));
+    // debugger;
+    this.get('items').pushObject(item);
   }
 });

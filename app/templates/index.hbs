@@ -1,12 +1,14 @@
 <div class="container col-sm-9">
-<ul style="list-style-type:none">
-{{#each model.products as |product|}}
-  {{display-product product=product}}
-{{/each}}
-</ul>
+  <ul style="list-style-type:none">
+    {{#each model.products as |product|}}
+      {{display-product product=product}}
+    {{/each}}
+  </ul>
 </div>
-<div class="container col-sm-3">
+<div class="container col-sm-3 cart-tile thumbnail">
 <p class="text-center">Shopping Cart</p>
 {{display-cart}}
-
+</div>
+<div class="col-sm-12">
+  <p class="text-center"><button>{{#link-to 'admin'}}Admin Page{{/link-to}}</button> </p>
 </div>

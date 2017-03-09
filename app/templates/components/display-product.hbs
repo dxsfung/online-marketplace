@@ -1,9 +1,9 @@
-<div class="col-sm-4 product-tile">
+<div class="col-sm-4 product-tile thumbnail">
 
 <li>
 <p class="text-center">{{product.name}} </p>
 <br>
-<p><img class="product-image" src={{product.image}} alt={{product.name}}></p>
+<p class="text-center"><img class="product-image" src={{product.image}} alt={{product.name}}></p>
 <p class="text-center">Price: ${{product.cost}}</p>
 <p class="text-center"><button {{action 'addToCart' product}}>Add</button></p>
 </li>

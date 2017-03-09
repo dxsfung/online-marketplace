@@ -16,17 +16,24 @@ h3 {
 }
 
 .product-tile{
-  height: 300px;
-  border-color: black;
-  border-width: 2px;
+  height: 350px;
+  border-color: grey;
 }
 
 .product-image{
   max-width: 100%;
+  max-height: 150px;
   height: auto;
+  border-color: grey;
 }
 
 .cart-icon{
   max-width: 25%;
   height: auto;
+}
+
+.cart-tile{
+  min-height: 600px;
+  left: 0;
+  border-color: grey;
 }

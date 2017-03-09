@@ -3,4 +3,4 @@
 <li><img class="cart-icon" src={{item.image}} alt={{item.name}}>  {{item.name}} - {{item.cost}}</li>
 </ul>
 {{/each}}
-<p class="text-center"> Total: {{shoppingCart.total}}</p>
+<p class="text-center"> Total: {{format-currency shoppingCart.total}}</p>

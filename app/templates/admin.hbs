@@ -1,0 +1,30 @@
+<div class="container col-sm-12">
+  <h3 class="text-center"> Administration </h3>
+  <ul style="list-style-type:none">
+    {{#each model.products as |product|}}
+
+      <div class="col-sm-4 product-tile thumbnail">
+        <li>
+          <p class="text-center"><img class="product-image " src= {{product.image}} alt= {{product.name}}></p>
+
+          <form>
+            <div class="form-group">
+              <label for="name">Product Name</label> {{input value=product.name id="name"}}
+            </div>
+
+            <div class="form-group">
+              <label for="cost">Price</label> {{input value=product.cost id="cost"}}
+            </div>
+              <p class="text-center">
+                <button {{action 'update' product}}>Save</button>
+                <button {{action 'delete' product}}>Delete</button>
+                <button {{action 'viewFeedBack' product}}>View Feedbacks</button>
+              </p>
+          </form>
+        </li>
+      </div>
+
+    {{/each}}
+  </ul>
+    <p class="text-center"><button>{{#link-to 'index'}}Shopping Page{{/link-to}}</button> </p>
+</div>
